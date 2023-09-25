@@ -2,7 +2,7 @@
 
 Members:
 
-Ferdinand C. Dangaran II
-Jyro Jhusham Maravilla
-Clyde Nichole S. Reyes
+Ferdinand C. Dangaran II\n
+Jyro Jhusham Maravilla\n
+Clyde Nichole S. Reyes\n
 Justin Dexter S. Villanueva
