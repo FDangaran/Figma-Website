@@ -1,0 +1,124 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=NTR&family=Nunito+Sans:opsz,wght@6..12,500&family=Nunito:wght@200;400&display=swap');
+body{
+    background-color: #FFFFFF;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    height: 80px;
+    justify-content: space-between;
+    background-color:#00B14F;;
+    align-items: center;
+    padding: 1rem 10vw;
+
+}
+
+.logo_name{
+    color: #BAF7A4;
+    font-family: NTR;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 125% */
+    letter-spacing: 2px;
+    line-height: .35;
+}
+
+.navList{
+    display: flex;
+    list-style: none;
+    margin-right: -33rem;
+}
+.navItem {
+   margin: 1rem;
+   font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 142.857% */
+    letter-spacing: 0.1px;
+    position: relative;
+}
+
+.navItem a{
+    text-decoration: none;
+    color: black;
+}
+
+.vl{
+    border-left: solid 1px black;
+}
+form {
+border-radius: 12px;
+  
+}
+
+.navSearch {
+    padding: 2rem;
+    font-family: 'NTR', sans-serif;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito Sans', sans-serif;
+    margin-left: -20rem;
+}
+
+.example{
+    border: solid 5px #f2f2f2;
+    width: 224px;
+    height: 40px;
+}
+
+.searchbar{
+    border: none;
+    background-color: #f2f2f2;
+    width: 199px;
+    height: 40px;
+}
+.searchbtn{
+    margin-left: -1rem;
+    border: none;
+    background-color: #f2f2f2;
+    height: 43px;
+    width: 32px;
+    
+}
+
+.searchbtn:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.navItem:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.btn-cart{
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-cart:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    text-shadow: 5px 5px 2px gray;
+}
+
+.btn-account{
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 5px; 
+}
+
+.btn-account:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    text-shadow: 5px 5px 2px gray;
+}
+
+.fa-shopping-bag{
+    color: #7CFF4E;
+}
