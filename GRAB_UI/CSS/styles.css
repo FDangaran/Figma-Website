@@ -28,6 +28,7 @@ body{
     padding: 1rem 10vw; 
     transform-origin: top left;
     transform: scale(1);
+    white-space: nowrap;
   }
   
   .navbar * {
@@ -290,6 +291,10 @@ border-radius: 12px;
     flex-shrink: 0;
     margin: 408px 925px 212px 165px; /*up right down left*/
     
+}
+
+.resto {
+  white-space: nowrap;
 }
 .resto a{
   text-decoration: none;
